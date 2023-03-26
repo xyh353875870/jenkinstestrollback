@@ -12,7 +12,7 @@ public class JenkinsTestController {
 
     @RequestMapping("/hehe")
     public String message(){
-
+        String str = null;
         return "这是版本1.0";
     }
 
